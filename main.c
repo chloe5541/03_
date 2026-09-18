@@ -1,17 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main(void)
-{
-    char c;
-    char next;
+int main(void){
+    int a,b;
+    
+    printf("input a number:");
+    scanf("%d",&a);
+    
+    printf("input a number:");
+    scanf("%d",&b);
 
-    printf("enter a character: ");
-    scanf(" %c", &c);
-
-    next = c + 1;
-
-    printf("the next character of %c (%i) is %c (%i)\n",
-           c, c, next, next);
+    printf("Dividing result is %f/n", (float)a/b);
 
     return 0;
 }
